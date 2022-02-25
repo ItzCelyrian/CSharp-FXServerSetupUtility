@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FXServer-SetupUtility.exe" version="1.0.0.2" publicKeyToken="0e9b07cc519392fd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Ubuntu.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FXServer-SetupUtility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FXServer-SetupUtility.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FXServer-SetupUtility.exe" size="384992">
+      <assemblyIdentity name="FXServer-SetupUtility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jDWpQQieuz1Fis6oDefjjMIrZUJ8OpbDx40rxOFNTiI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FXServer-SetupUtility.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Ubuntu.ico" size="183368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>stx4B8WOae7xcqWLTS1hggtQUyiOPfNx/+JaM1uQ3BY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NZXT-0001\ItzCelyrian" issuerKeyHash="6e87fe9fa7cc76736ec48c4ce5944b9420973ab8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WB6+A6CW8bsPSw16SKwqxCu16/1Z2NHOIo1YKW6zqyA=</DigestValue></Reference></SignedInfo><SignatureValue>pl/EG8mAJUVpc+XYKgbiHmz7CTqazIL81TBJKsIDvtis+aIg3XuzktePLIJYPDOkv89I2pqmpl5YSh0isZmDTjqbc7pJxvMgiJB5hAHx9HJRKC/xiiGPPVpz9OL4pKIWYdW2rearofCIFSjgM6oBmCmNdGrbI+QrQZggcZkLa8Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yGBPz7YjUL731CtUcvEpGBLYMGzNiT/fzLqbRUZlY/FWK57/U0cyG7XITj3OWFGSvJVl9Bb0P4xGDXxF3OpO4BV7SLOQA6DNeAU2KtkK7hY74EYehwp3JP7IM/Tzfv2BAoIu5cOvL43M6cvUApAtq0+zwvR2WsjdXSAwOsx5MMk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="20abb36e29588d22ced1d859fdebb52bc42aac487a0d4b0fbbf196a003be1e58" Description="" Url=""><as:assemblyIdentity name="FXServer-SetupUtility.exe" version="1.0.0.2" publicKeyToken="0e9b07cc519392fd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NZXT-0001\ItzCelyrian</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PMlZLq8mlTOfJBxEfSh4Zq6F7B80QQZ78vdbcW4/BL4=</DigestValue></Reference></SignedInfo><SignatureValue>fdhbAzkGl82L2wAbqAqYNMTZK3iyFcchU/HcjA5X16YD17Ol18e2DFWUWdvpYUlxRzea6dIRuMJk+kahvvxe7e5KN4F2V4FCj2BOoRiIx8ktqMZPIKwyVgQuU1oLVttL3wgjwmpk94l6aE5A4fyuJU3X2bru8yxs+vFagf9kA+Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yGBPz7YjUL731CtUcvEpGBLYMGzNiT/fzLqbRUZlY/FWK57/U0cyG7XITj3OWFGSvJVl9Bb0P4xGDXxF3OpO4BV7SLOQA6DNeAU2KtkK7hY74EYehwp3JP7IM/Tzfv2BAoIu5cOvL43M6cvUApAtq0+zwvR2WsjdXSAwOsx5MMk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZae9jFKFX4BPGuQIza375TANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATgBaAFgAVAAtADAAMAAwADEAXABJAHQAegBDAGUAbAB5AHIAaQBhAG4wHhcNMjIwMjI1MjIwMTE5WhcNMjMwMjI2MDQwMTE5WjA1MTMwMQYDVQQDHioATgBaAFgAVAAtADAAMAAwADEAXABJAHQAegBDAGUAbAB5AHIAaQBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMhgT8+2I1C+99QrVHLxKRgS2DBszYk/38y6m0VGZWPxViue/1NHMhu1yE49zlhRkryVZfQW9D+MRg18RdzqTuAVe0izkAOgzXgFNirZCu4WO+BGHocKdyT+yDP08379gQKCLuXDry+NzOnL1AKQLatPs8L0dlrI3V0gMDrMeTDJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEArde9/H1xj8vXrQElXtdSILPVIGqujOQJu14p+HzmKPKdDYyj2B7pVmUc3IWBAwcVW0zXIZKvryaIiVh8BozT1v2e3JVfXTpT2A3bLqQ363EglMRUjdHyXvQ1mBH0RIglpg3peGbgY4MtXIFL3R/sqqa5dQqkioAnweP+kn+7A8I=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

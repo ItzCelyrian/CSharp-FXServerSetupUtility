@@ -1,0 +1,15 @@
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\CSharp-LinuxSetupUtility.csproj.AssemblyReference.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\CSharp-LinuxSetupUtility.csproj.SuggestedBindingRedirects.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\CSharp_LinuxSetupUtility.Form1.resources
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\CSharp-LinuxSetupUtility.csproj.GenerateResource.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\CSharp-LinuxSetupUtility.csproj.CoreCompileInputs.cache
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\bin\Debug\FXServer-SetupUtility.exe.config
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\bin\Debug\FXServer-SetupUtility.exe.manifest
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\bin\Debug\FXServer-SetupUtility.application
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\bin\Debug\FXServer-SetupUtility.exe
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\bin\Debug\FXServer-SetupUtility.pdb
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\FXServer_SetupUtility.Properties.Resources.resources
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\FXServer-SetupUtility.exe.manifest
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\FXServer-SetupUtility.application
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\FXServer-SetupUtility.exe
+C:\Users\ItzCelyrian\Documents\Visual Studio 2022\CSharp-LinuxSetupUtility\CSharp-LinuxSetupUtility\obj\Debug\FXServer-SetupUtility.pdb
